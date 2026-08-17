@@ -10,5 +10,26 @@ export const questions = [
   { id: 'inspectionPriorities', title: 'Which type of inspection matters the most to you?', multiple: true, options: ['Originality / Authenticity', 'Product Condition', 'Cleanliness', 'Functional Check', 'Photos Match Reality'] },
   { id: 'jordanDecision', title: 'Imagine this scenario...', detail: 'A brand-new pair of Air Jordans costs ₹11,000.\n\nA professionally inspected thrift pair in excellent condition is available for ₹7,000.\n\nWould you buy it?', options: ['Definitely Yes', 'Probably Yes', 'Maybe', 'Probably Not', 'Definitely Not'] },
   { id: 'productInterests', title: 'What kinds of products would you be interested in buying or selling?', multiple: true, options: ['Sneakers', 'Hoodies', 'T-Shirts', 'Jackets', 'Jeans', 'Watches', 'Bags', 'Accessories'] },
-  { id: 'priceNegotiation', title: 'Would you like the ability to negotiate prices with sellers through the app?', options: ['Yes', 'No'] }
+  { id: 'priceNegotiation', title: 'Would you like the ability to negotiate prices with sellers through the app?', options: ['Yes', 'No'] },
+  {
+    id: 'launchIntent',
+    title: 'If this app launched tomorrow, would you download it?',
+    detail: 'A trusted marketplace for buying and selling second-hand fashion with verified sellers, inspected products, secure payments, and buyer protection.',
+    options: ['Yes, I would download it', 'Probably', 'Maybe, I would check it out', 'Probably not', 'No']
+  },
+  {
+    id: 'finalThoughts',
+    title: 'What would make you actually choose this app over buying from a normal store or existing second-hand platforms?',
+    text: true
+  },
+  {
+    id: 'appFrequency',
+    title: 'If you liked the products and prices, how often would you expect to use the app?',
+    options: ['Multiple times a month', 'About once a month', 'Every 2–3 months', 'A few times a year', 'Only when I need something specific']
+  },
+  {
+    id: 'appSwitch',
+    title: 'Would you consider using this platform instead of Instagram, OLX, Facebook Marketplace, or other places where you currently find second-hand items?',
+    options: ['Definitely', 'Probably', 'Maybe', 'Probably Not', 'Definitely Not']
+  }
 ];

@@ -123,3 +123,29 @@
   .question .actions{padding-top:7px}
   .question .back{min-height:35px;min-width:84px;padding:7px 9px;font-size:9px}
 }
+
+/* Larger, more tap-friendly answer cards that still adapt to a phone's height. */
+@media(max-width:680px){
+  .question .question-detail{font-size:clamp(12px,2.05vh,16px);line-height:1.42}
+  .question .choice-list{gap:clamp(7px,1.3vh,12px);margin-top:clamp(11px,1.8vh,17px)}
+  .question .choice{min-height:clamp(42px,6.4vh,56px);padding:clamp(8px,1.25vh,11px) 12px;gap:10px;font-size:clamp(12px,1.9vh,15px);line-height:1.18}
+  .question .radio,.question .check{width:clamp(16px,2.4vh,20px);height:clamp(16px,2.4vh,20px)}
+  .question .selected .radio:after{width:clamp(6px,1.1vh,9px);height:clamp(6px,1.1vh,9px)}
+  .primary{min-height:clamp(48px,7vh,60px);padding:clamp(12px,1.8vh,16px) clamp(16px,2.6vw,22px);font-size:clamp(12px,2vh,16px)}
+  .primary .arrow{font-size:clamp(19px,4vh,25px);margin-left:12px}
+  .question .back{min-width:clamp(94px,27vw,124px);min-height:clamp(44px,6.5vh,56px);padding:clamp(9px,1.5vh,13px) clamp(11px,2vw,16px);font-size:clamp(10px,1.7vh,13px)}
+  .home-button{padding:clamp(6px,1vh,9px) clamp(8px,1.6vw,12px);font-size:clamp(9px,1.45vh,12px)}
+}
+
+@media(max-width:680px){
+  .question .thrift-quip.compact{display:flex;right:20px;bottom:clamp(78px,11vh,98px);max-width:min(78vw,320px);padding:10px 12px;font-size:clamp(11px,1.75vh,14px);line-height:1.14;box-shadow:4px 4px 0 var(--ink);z-index:3}
+  .question .thrift-quip.compact .quip-spark{width:30px;height:30px;font-size:18px}
+}
+
+/* Long option groups scroll inside the card; the question header and controls remain visible. */
+@media(max-width:680px){
+  .question .choice-list{flex:0 1 auto;min-height:auto;max-height:min(42vh,340px);overflow-y:auto;overscroll-behavior:contain;padding:1px 8px 5px 1px;scrollbar-width:thin;scrollbar-color:var(--hot) var(--paper)}
+  .question .choice-list::-webkit-scrollbar{width:7px}
+  .question .choice-list::-webkit-scrollbar-track{background:var(--paper);border-left:1px solid var(--ink)}
+  .question .choice-list::-webkit-scrollbar-thumb{background:var(--hot);border:1px solid var(--ink)}
+}

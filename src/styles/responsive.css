@@ -26,3 +26,46 @@
   .welcome .thrift-quip{font-size:8px;padding:7px;max-width:260px}
   .welcome .button-row{margin-top:4px}
 }
+
+/* Phone-first, one-screen survey composition. */
+@media(max-width:680px){
+  .welcome{justify-content:flex-start}
+  .welcome .welcome-copy{margin-top:clamp(130px,19vh,175px)}
+  .welcome .button-row{margin-top:auto;padding-bottom:4px}
+  .welcome .fashion-art{top:72px}
+  .welcome .subtitle{max-width:330px}
+
+  .app-shell:has(.question){height:100dvh;min-height:100dvh;overflow:hidden}
+  .app-shell:has(.question) .survey-card,.app-shell:has(.question) .question{height:100dvh;min-height:100dvh}
+  .question{position:relative;padding:18px 20px 16px;overflow:hidden}
+  .question .brand{padding-bottom:9px}
+  .question .topbar{margin:14px 0 15px}
+  .question .question-content{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+  .question .question-number{font-size:8px;padding:4px 5px;margin-bottom:8px}
+  .question .question-title{font-size:clamp(30px,9.3vw,38px);line-height:.94;margin:0 0 7px}
+  .question .question-detail{font-size:11px;line-height:1.3;margin:0 0 5px}
+  .question .choice-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:10px}
+  .question .choice{min-height:40px;padding:6px 7px;gap:7px;font-size:10px;line-height:1.12;box-shadow:2px 2px transparent}
+  .question .choice.selected{box-shadow:2px 2px var(--ink)}
+  .question .radio,.question .check{width:14px;height:14px;flex:none}
+  .question .selected .radio:after{width:6px;height:6px}
+  .question .long-answer{min-height:94px;margin-top:10px;padding:10px;font-size:12px}
+  .question .thrift-quip{display:none}
+  .question .actions{margin-top:auto;padding-top:10px}
+  .question .back{font-size:10px}
+  .question .next{min-width:112px}
+  .question .primary{padding:10px 12px;font-size:10px}
+}
+
+@media(max-height:620px) and (max-width:680px){
+  .welcome .welcome-copy{margin-top:94px}
+  .welcome h1{font-size:42px}
+  .question{padding:14px 18px 12px}
+  .question .topbar{margin:10px 0}
+  .question .question-title{font-size:29px}
+  .question .choice-list{gap:5px;margin-top:7px}
+  .question .choice{min-height:34px;padding:4px 6px;font-size:9px}
+  .question .question-detail{font-size:10px;line-height:1.2}
+  .question .long-answer{min-height:70px}
+  .question .actions{padding-top:6px}
+}

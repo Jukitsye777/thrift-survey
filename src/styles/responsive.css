@@ -1,0 +1,28 @@
+/* The entry poster is composed to fit one mobile viewport; question screens may still scroll for long option lists. */
+@media(max-width:680px){
+  .app-shell:has(.welcome){height:100dvh;min-height:100dvh;overflow:hidden}
+  .app-shell:has(.welcome) .survey-card,.app-shell:has(.welcome) .welcome{height:100dvh;min-height:100dvh}
+  .welcome{padding:20px 22px 25px}
+  .welcome .brand{padding-bottom:10px}
+  .welcome .fashion-art{top:76px;right:-63px;transform:scale(.64) rotate(4deg)}
+  .welcome .welcome-copy{margin-top:clamp(96px,20vh,142px)}
+  .welcome .eyebrow{margin:0 0 11px;padding:4px 6px;font-size:8px}
+  .welcome h1{font-size:clamp(45px,13.5vw,58px);line-height:.88}
+  .welcome .subtitle{font-size:13px;line-height:1.35;margin:15px 0 12px;max-width:300px}
+  .welcome .thrift-quip{max-width:280px;margin-top:0;padding:8px 9px;font-size:9px;line-height:1.1}
+  .welcome .quip-spark{width:22px;height:22px;font-size:14px}
+  .welcome .button-row{gap:12px}
+  .welcome .primary{padding:11px 14px;font-size:11px}
+  .welcome .time{font-size:8px}
+  .welcome .sticker-star{top:70px}
+  .welcome .sticker-tag{top:53px}
+}
+
+@media(max-height:620px) and (max-width:680px){
+  .welcome .fashion-art{top:61px;transform:scale(.55) rotate(4deg)}
+  .welcome .welcome-copy{margin-top:79px}
+  .welcome h1{font-size:43px}
+  .welcome .subtitle{font-size:12px;margin:10px 0}
+  .welcome .thrift-quip{font-size:8px;padding:7px;max-width:260px}
+  .welcome .button-row{margin-top:4px}
+}

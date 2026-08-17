@@ -1,7 +1,7 @@
 import Brand from '../../components/Brand';
 import { ThriftQuip } from '../../components/ThriftQuip';
 
-const jokeFreeQuestions = new Set(['noThriftReason', 'onlineThriftBarriers', 'productInterests', 'appSwitch']);
+const jokeFreeQuestions = new Set(['noThriftReason', 'onlineThriftBarriers', 'productInterests', 'appSwitch', 'jordanDecision', 'launchIntent', 'appFrequency']);
 
 export default function Question({ question, answer, number, total, onAnswer, onBack, onHome, onNext }) {
   const select = option => {

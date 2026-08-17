@@ -3,5 +3,6 @@
 @import './poster.css';
 @import './submission.css';
 @import './responsive.css';
+@import './navigation.css';
 
 :root{font-family:"DM Sans",Arial,sans-serif;color:#18231c;background:#d9ddd1}*{box-sizing:border-box}body{margin:0;min-width:320px}button,textarea{font:inherit}.question-detail{white-space:pre-line}

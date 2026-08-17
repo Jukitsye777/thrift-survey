@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#111" stroke-opacity=".18" stroke-width="2"/></pattern></defs>
+  <rect width="1200" height="630" fill="#ff4d82"/><rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="96" y="60" width="1008" height="510" rx="12" fill="#fff9e9" stroke="#111" stroke-width="7"/>
+  <path d="M96 506 630 506 810 338 1104 338V570H96Z" fill="#40c8e8"/>
+  <rect x="145" y="103" width="25" height="25" transform="rotate(45 157.5 115.5)" fill="#ff4d82"/><text x="184" y="123" font-family="monospace" font-size="24" font-weight="700" fill="#111">SECOND STORY™</text>
+  <rect x="790" y="96" width="224" height="38" fill="#d8ff32"/><text x="806" y="121" font-family="monospace" font-size="17" font-weight="700" fill="#111">REWEAR THE FUTURE</text>
+  <path d="M145 155H1055" stroke="#111" stroke-width="4"/>
+  <rect x="148" y="202" width="272" height="39" fill="#d8ff32"/><text x="165" y="228" font-family="monospace" font-size="16" font-weight="700" fill="#111">PRE-LOVED FASHION</text>
+  <text x="145" y="340" font-family="Impact, sans-serif" font-size="125" letter-spacing="2" fill="#111">KEEP IT</text>
+  <text x="145" y="447" font-family="Impact, sans-serif" font-size="115" letter-spacing="2" fill="#ff4d82" stroke="#111" stroke-width="4">IN THE LOOP.</text>
+  <text x="150" y="485" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">GOOD CLOTHES DESERVE A SECOND OWNER.</text>
+  <g transform="translate(790 170) rotate(8)"><rect width="215" height="215" fill="#40c8e8" stroke="#111" stroke-width="6"/><path d="M60 30 92 48h32l32-18 48 40-31 42-16-15 10 92H49l10-92-16 15L12 70Z" fill="#d8ff32" stroke="#111" stroke-width="5"/><text x="81" y="130" font-family="Impact, sans-serif" font-size="24" fill="#111">SECOND</text><text x="88" y="154" font-family="Impact, sans-serif" font-size="24" fill="#111">STORY</text></g>
+  <g transform="translate(150 517) rotate(-3)"><rect width="370" height="58" fill="#ff4d82" stroke="#111" stroke-width="5"/><text x="20" y="36" font-family="monospace" font-size="17" font-weight="700" fill="#111">YOUR EX MOVED ON. SO DID THIS JACKET.</text></g>
+  <rect x="96" y="570" width="1008" height="34" fill="#d8ff32" stroke="#111" stroke-width="5"/><text x="125" y="594" font-family="monospace" font-size="15" font-weight="700" fill="#111">THRIFT • REWEAR • REPEAT • VERIFIED FINDS • BENGALURU</text>
+</svg>
